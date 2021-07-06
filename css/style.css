@@ -116,3 +116,16 @@ body {
 .follower p {
   color: #828282;
 }
+footer {
+  background: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+footer h2 {
+  color: #828282;
+  font-size: 30px;
+}
+footer p {
+  color: white;
+}
