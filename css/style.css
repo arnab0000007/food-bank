@@ -2,6 +2,25 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+.navbar {
+  padding: 25px 0;
+  text-align: center;
+  background: #fa8b47;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: white;
+}
 .flex-container {
   display: flex;
   margin: 5%;
@@ -41,20 +60,20 @@ body {
   font-weight: 900;
   color: #575757;
 }
-.about-me {
+#about-me {
   background-image: url("../images/shapes/7.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
 }
-/* recipi part */
+/* my-recipies*/
 
-.recipies-part .recipies-header h2 {
+#my-recipies .recipies-header h2 {
   text-align: center;
   color: #575757;
   padding-top: 30px;
 }
-.recipies-part .recipies-header p {
+#my-recipies .recipies-header p {
   text-align: center;
   padding: 0 400px;
   color: #828282;
@@ -69,11 +88,11 @@ body {
 .recipi-item img {
   width: 100%;
 }
-.recipies-part .recipi-item p {
+#my-recipies .recipi-item p {
   color: #828282;
   padding: 0px;
 }
-.recipies-part .recipi-item h3 {
+#my-recipies .recipi-item h3 {
   font-weight: 900;
   font-size: 25px;
 }
