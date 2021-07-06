@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+/* navbar css */
 .navbar {
   padding: 25px 0;
   text-align: center;
@@ -21,6 +22,7 @@ body {
   padding: 20px 20px;
   color: #fa8b47;
 }
+/* home part css */
 .flex-container {
   display: flex;
   margin: 5%;
@@ -61,12 +63,12 @@ body {
   color: #575757;
 }
 #about-me {
-  background-image: url("../images/shapes/7.png");
+  background-image: url("../images/shapes/1.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
 }
-/* my-recipies*/
+/* my-recipies part css*/
 
 #my-recipies .recipies-header h2 {
   text-align: center;
@@ -96,7 +98,7 @@ body {
   font-weight: 900;
   font-size: 25px;
 }
-/* follower section */
+/* follower part css */
 .follower {
   width: 30%;
   text-align: center;
@@ -118,7 +120,7 @@ body {
 }
 /* contact part css */
 #contact {
-  background-image: url("../images/shapes/7.png");
+  background-image: url("../images/shapes/1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
