@@ -83,7 +83,7 @@ body {
   margin: 0 1.66%;
   padding: 20px;
   border-radius: 30px;
-  box-shadow: 0px 0px 5px 2px rgb(177, 164, 164);
+  box-shadow: 0px 0px 40px 5px rgb(238, 224, 224);
 }
 .recipi-item img {
   width: 100%;
@@ -95,4 +95,24 @@ body {
 #my-recipies .recipi-item h3 {
   font-weight: 900;
   font-size: 25px;
+}
+/* follower section */
+.follower {
+  width: 30%;
+  text-align: center;
+  margin: 0 1.66%;
+}
+.follower-main {
+  padding: 20px 0;
+  display: flex;
+  margin: 6%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px rgb(241, 234, 234);
+}
+.follower h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.follower p {
+  color: #828282;
 }
